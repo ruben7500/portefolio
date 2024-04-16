@@ -1,0 +1,100 @@
+/* Réinitialisation des styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Styles généraux */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #4c4848c5; /* gris clair */
+    color: #333; /* gris foncé */
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+h1 {
+    color: #1a73e8; /* bleu */
+    font-size: 36px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Styles pour les boutons */
+.button {
+    display: inline-block;
+    background-color: #0d47a1; /* bleu foncé */
+    color: #fff; /* blanc */
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #0a3d91; /* bleu légèrement plus foncé au survol */
+}
+
+/* Styles pour la liste de projets */
+.project-list {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 40px;
+}
+
+.project-list li {
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #fff; /* blanc */
+}
+
+.project-list li h2 {
+    margin-top: 0;
+    font-size: 24px;
+    color: #1a73e8; /* bleu */
+}
+
+.project-list li p {
+    margin-top: 10px;
+    color: #333; /* gris foncé */
+}
+
+/* Styles pour le lien "Découvrir plus" */
+.discover-more {
+    text-align: center;
+}
+
+.discover-more a {
+    color: #1a73e8; /* bleu */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.discover-more a:hover {
+    text-decoration: underline;
+}
+
+/* Styles pour les informations supplémentaires */
+.more-info {
+    display: none;
+    padding-top: 20px;
+}
+
+.more-info.active {
+    display: block;
+}
