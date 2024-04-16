@@ -1,0 +1,55 @@
+/* Styles pour le fond */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #443c3c; /* Fond gris */
+    margin: 0;
+    padding: 0;
+}
+
+/* Styles pour le conteneur */
+#content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Styles pour les logos */
+#content div {
+    text-align: center;
+    margin: 20px;
+    animation: fadeIn 1s ease-in-out; /* Animation d'apparition */
+}
+
+/* Styles pour les images */
+#content img {
+    width: 100px;
+    height: auto;
+    border-radius: 50%; /* Bordure arrondie */
+    box-shadow: 0 0 10px rgba(220, 211, 211, 0.863); /* Ombre */
+    transition: transform 0.3s ease-in-out; /* Transition au survol */
+}
+
+/* Effet de survol sur les images */
+#content img:hover {
+    transform: scale(1.1); /* Zoom au survol */
+}
+
+/* Styles pour les noms */
+#content span {
+    display: block;
+    margin-top: 10px;
+    color: #c1b1b1;
+}
+
+/* Animation d'apparition */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
